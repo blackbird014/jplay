@@ -8,7 +8,7 @@ import fj.data.List;
 import static fj.Show.intShow;
 import static fj.Show.listShow;
 
-public final class CSVSorter {
+public final class ArrayFunction {
     public static void main(final String[] args) {
         final List<Integer> a = list(1, 2, 3).map(i -> i + 42);
         listShow(intShow).println(a); // [43,44,45]
